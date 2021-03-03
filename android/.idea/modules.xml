@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dishant.iml" filepath="$PROJECT_DIR$/.idea/modules/dishant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/dishant.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/dishant.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/785229722/dishant.react-native-community_checkbox.iml" filepath="$PROJECT_DIR$/.idea/modules/785229722/dishant.react-native-community_checkbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1451004832/dishant.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1451004832/dishant.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2068480976/dishant.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-2068480976/dishant.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/526950055/dishant.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/526950055/dishant.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1146901177/dishant.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1146901177/dishant.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-998296811/dishant.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-998296811/dishant.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/244230480/dishant.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/244230480/dishant.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1593732456/dishant.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1593732456/dishant.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1859544635/dishant.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1859544635/dishant.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1106727567/dishant.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1106727567/dishant.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
