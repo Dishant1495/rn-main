@@ -1,8 +1,6 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-
 import {createStackNavigator} from '@react-navigation/stack';
-
 import Splash from '../screens/Splash';
 import Login from '../screens/Login';
 import Mobile from '../screens/Mobile';
@@ -50,19 +48,18 @@ import JoinAdmissionSubmit from '../screens/JoinAdmissionSubmit';
 // import JoinAdmissionSubmit from '../screens/JoinAdmissionSubmit';
 import EntranceResult from '../screens/EntranceResult';
 
-// import Classroom from '../screens/Classroom';
+import Classroom from '../screens/Classroom';
 
-// import Information from '../screens/Information';
-// import Info from '../screens/info';
-// import Notebook from '../screens/Notebook';
-// import Highlight from '../screens/Highlight';
+import Information from '../screens/Information';
+import Info from '../screens/info';
+import Notebook from '../screens/Notebook';
+import Highlight from '../screens/Highlight';
 
-// import Chat from '../screens/Chat';
-// import Mates from '../screens/Mates';
-// import Doubts from '../screens/Doubts';
-// import Homework from '../screens/Homework';
-// import Periods from '../screens/Periods';
-
+import Chat from '../screens/Chat';
+import Mates from '../screens/Mates';
+import Doubts from '../screens/Doubts';
+import Homework from '../screens/Homework';
+import Periods from '../screens/Periods';
 
 const Stack = createStackNavigator();
 
@@ -123,8 +120,7 @@ Route = () => {
       />
       <Stack.Screen name="EntranceResult" component={EntranceResult} />
 
-      {
-      /* <Stack.Screen name="Classroom" component={Classroom} />
+      <Stack.Screen name="Classroom" component={Classroom} />
 
       <Stack.Screen name="Information" component={Information} />
       <Stack.Screen name="Info" component={Info} />
@@ -138,9 +134,7 @@ Route = () => {
       <Stack.Screen name="Doubts" component={Doubts} />
       <Stack.Screen name="Homework" component={Homework} />
 
-      <Stack.Screen name="Periods" component={Periods} /> 
-      */}
-      
+      <Stack.Screen name="Periods" component={Periods} />
     </Stack.Navigator>
   );
 

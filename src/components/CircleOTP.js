@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
 import {View, Text, TextInput} from 'react-native';
-// import Theme from '../screens/styles/Theme';
-
 class CircleOTP extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        input:''
+      input: '',
     };
   }
 
@@ -23,12 +21,9 @@ class CircleOTP extends Component {
           onChangeText={(input) => {
             this.setState({input});
             this.props.onChangeText(input);
-           
           }}
           onSubmitEditing={this.props.onSubmitEditing}
           contextMenuHidden={this.props.contextMenuHidden}
-
-
         />
       </View>
     );

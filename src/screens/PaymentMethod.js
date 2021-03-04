@@ -7,8 +7,8 @@ import {
   TouchableOpacity,
   TouchableHighlight,
   Text,
+  ScrollView,
 } from 'react-native';
-import {ScrollView} from 'react-native-gesture-handler';
 
 class PaymentMethod extends Component {
   constructor(props) {

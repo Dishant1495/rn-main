@@ -12,8 +12,6 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import LinearGradient from 'react-native-linear-gradient';
-import {FlatList} from 'react-native-gesture-handler';
 
 export default class Advancedsearch extends Component {
   constructor(props) {
@@ -97,7 +95,7 @@ export default class Advancedsearch extends Component {
 
               <TouchableOpacity
                 onPress={() => navigation.navigate('Editprofile')}>
-                <View style={{flexDirection: 'row',}}>
+                <View style={{flexDirection: 'row'}}>
                   <View
                     style={{
                       height: 30,
@@ -121,7 +119,7 @@ export default class Advancedsearch extends Component {
                       alignItems: 'center',
                       width: 55,
                       marginTop: 12,
-                      
+
                       borderRadius: 30,
                       borderColor: '#9B3189',
                       borderWidth: 1.3,

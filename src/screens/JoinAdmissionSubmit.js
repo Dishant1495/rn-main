@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {View, Image, StyleSheet, TouchableOpacity, Text} from 'react-native';
-import {ScrollView} from 'react-native-gesture-handler';
+import {View, Image, StyleSheet, TouchableOpacity, Text, ScrollView} from 'react-native';
 
 import {
   widthPercentageToDP as wp,

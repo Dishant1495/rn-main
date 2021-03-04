@@ -1,16 +1,12 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 
-import { View, Image } from 'react-native';
+import {View, Image} from 'react-native';
 
-import { useNavigation } from '@react-navigation/native';
-import { assets } from '../utils/assets';
-import {
-
-  moderateScale,
-} from '../utils/constants/Ratio';
+import {useNavigation} from '@react-navigation/native';
+import {assets} from '../utils/assets';
+import {moderateScale} from '../utils/constants/Ratio';
 
 Splash = () => {
-
   const navigation = useNavigation();
 
   useEffect(() => {
@@ -24,10 +20,8 @@ Splash = () => {
       <Image
         resizeMode="contain"
         source={assets.splash}
-
         // style={{width:200,height:200}}
-        style={{ width: moderateScale(200), height: moderateScale(200) }}
-
+        style={{width: moderateScale(200), height: moderateScale(200)}}
       />
     </View>
   );

@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, Image, TextInput, TouchableOpacity} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import keyboardawarescrollview, {
-  KeyboardAwareScrollView,
-} from 'react-native-keyboard-aware-scroll-view';
-import {SvgUri} from 'react-native-svg';
+import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,

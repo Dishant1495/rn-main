@@ -18,14 +18,10 @@ import {
 const windowSize = Dimensions.get('window');
 
 const Toast = forwardRef((props, ref) => {
-  //   const {colors} = data.themeReducers;
-
   const [toastText, setToastText] = useState('Toast');
   const [toastType, setToastType] = useState('MESSAGE');
   const [isVisible, setIsVisible] = useState(false);
   const [toastAnimation] = useState(new Animated.Value(0));
-
-//   const toastAnimation = new Animated.Value(0);
 
   const firstTopPosition = -(
     styles.toastTextStyle.padding * 5 +

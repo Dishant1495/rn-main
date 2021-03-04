@@ -13,9 +13,6 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import LinearGradient from 'react-native-linear-gradient';
-import keyboardawarescrollview, {
-  KeyboardAwareScrollView,
-} from 'react-native-keyboard-aware-scroll-view';
 import {Popover, PopoverController} from 'react-native-modal-popover';
 
 export default class favouritescreen extends Component {

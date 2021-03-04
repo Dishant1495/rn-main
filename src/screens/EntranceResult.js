@@ -85,7 +85,7 @@ class EntranceResult extends Component {
                   style={{
                     ...styles.openButton,
                     margin: 16,
-                    width:'80%',
+                    width: '80%',
                     backgroundColor: 'white',
                   }}
                   onPress={() => {
@@ -598,8 +598,7 @@ class EntranceResult extends Component {
               backgroundColor: '#262060',
             }}
             onPress={() => {
-              this.setModalVisible(!modalVisible);
-              //   this.props.navigation.navigate('PayAdmission');
+              this.props.navigation.navigate('Classroom');
             }}>
             <Text style={{color: 'white', textAlign: 'center', fontSize: 18}}>
               Try Another School

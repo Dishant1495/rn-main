@@ -12,9 +12,7 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import LinearGradient from 'react-native-linear-gradient';
-import keyboardawarescrollview, {
-  KeyboardAwareScrollView,
-} from 'react-native-keyboard-aware-scroll-view';
+import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 export default class editprofile extends Component {
   constructor(props) {
     super(props);
@@ -120,7 +118,7 @@ export default class editprofile extends Component {
               }}>
               <TextInput
                 placeholder="Enter First name"
-                style={{height: 40, width: '85%',color:'#9B3189'}}
+                style={{height: 40, width: '85%', color: '#9B3189'}}
               />
             </View>
 
@@ -138,7 +136,7 @@ export default class editprofile extends Component {
               }}>
               <TextInput
                 placeholder="Enter Last name"
-                style={{height: 40, width: '85%',color:'#9B3189'}}
+                style={{height: 40, width: '85%', color: '#9B3189'}}
               />
             </View>
 
@@ -157,8 +155,7 @@ export default class editprofile extends Component {
               <TextInput
                 keyboardType="number-pad"
                 placeholder="Mobile Number"
-
-                style={{height: 40, width: '85%',color:'#9B3189'}}
+                style={{height: 40, width: '85%', color: '#9B3189'}}
               />
             </View>
 
@@ -178,7 +175,7 @@ export default class editprofile extends Component {
               <TextInput
                 keyboardType="email-address"
                 placeholder="Email Address"
-                style={{height: 40, width: '85%',color:'#9B3189'}}
+                style={{height: 40, width: '85%', color: '#9B3189'}}
               />
             </View>
           </View>

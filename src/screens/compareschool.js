@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   Image,
   ScrollView,
-  FlatList,
   TextInput,
 } from 'react-native';
 import {
@@ -13,9 +12,6 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import LinearGradient from 'react-native-linear-gradient';
-import keyboardawarescrollview, {
-  KeyboardAwareScrollView,
-} from 'react-native-keyboard-aware-scroll-view';
 
 export default class compareschool extends Component {
   constructor(props) {

@@ -5,12 +5,11 @@ import {
   Image,
   KeyboardAvoidingView,
   TouchableOpacity,
+  TextInput
 } from 'react-native';
-import {TextInput} from 'react-native-gesture-handler';
 import {assets} from '../utils/assets';
 import {useNavigation} from '@react-navigation/native';
 import CircleOTP from '../components/CircleOTP';
-
 import Toast from '../components/ToastComponent';
 
 const OTP = () => {

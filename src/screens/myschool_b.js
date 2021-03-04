@@ -15,10 +15,6 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import {Popover, PopoverController} from 'react-native-modal-popover';
 
-import keyboardawarescrollview, {
-  KeyboardAwareScrollView,
-} from 'react-native-keyboard-aware-scroll-view';
-
 export default class myschool_b extends Component {
   constructor(props) {
     super(props);
@@ -121,7 +117,12 @@ export default class myschool_b extends Component {
               elevation: 5,
             }}>
             <View style={{flexDirection: 'row'}}>
-              <Text style={{marginLeft: wp(10),color:'#532280', marginTop: hp(4)}}>
+              <Text
+                style={{
+                  marginLeft: wp(10),
+                  color: '#532280',
+                  marginTop: hp(4),
+                }}>
                 You enquired 2 School yet.
               </Text>
               <TouchableOpacity

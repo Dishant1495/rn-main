@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {View, Text, Image, TouchableOpacity} from 'react-native';
-import {assets} from '../utils/assets';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,

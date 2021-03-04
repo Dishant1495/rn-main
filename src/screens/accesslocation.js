@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
-import {assets} from '../utils/assets';
-import {useNavigation} from '@react-navigation/native';
-
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,

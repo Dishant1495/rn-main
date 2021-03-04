@@ -1,11 +1,7 @@
-import React, {useRef} from 'react';
-import {Text, View, Image, TouchableOpacity} from 'react-native';
-import {TextInput} from 'react-native-gesture-handler';
+import React, {useRef, useState} from 'react';
+import {Text, View, Image, TouchableOpacity, TextInput} from 'react-native';
 import {assets} from '../utils/assets';
 import {useNavigation} from '@react-navigation/native';
-import Keyboardawarescrollview from 'react-native-keyboard-aware-scroll-view';
-import {useState} from 'react';
-
 import Toast from '../components/ToastComponent';
 
 const Mobile = () => {

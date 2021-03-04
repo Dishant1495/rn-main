@@ -16,7 +16,6 @@ import {
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Popover, PopoverController} from 'react-native-modal-popover';
 import myaccount from './Myaccount';
-import Apply from './Apply';
 import myschool_a from './myschool_a';
 import Typesearchscreen from '../screens/typesearchscreen';
 
