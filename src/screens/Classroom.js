@@ -55,50 +55,6 @@ class Classroom extends Component {
   };
 
   render() {
-    var popularschool = [
-      {
-        schoolimage: require('../utils/assets/Image/Schoolimage_b.png'),
-        schoolname: 'Delhi Public School (DPS)',
-        schoollocation: 'Delhi',
-        standard: 'Std 1st  to 10th',
-        fees: 'Rs- 500-10000 ',
-      },
-      {
-        schoolimage: require('../utils/assets/Image/Schoolimage_a.png'),
-        schoolname: 'Delhi Public School (DPS)',
-        schoollocation: 'Delhi',
-        standard: 'Std 1st  to 10th',
-        fees: 'Rs- 500-10000 ',
-      },
-      {
-        schoolimage: require('../utils/assets/Image/Schoolimage_a.png'),
-        schoolname: 'Delhi Public School (DPS)',
-        schoollocation: 'Delhi',
-        standard: 'Std 1st  to 10th',
-        fees: 'Rs- 500-10000 ',
-      },
-      {
-        schoolimage: require('../utils/assets/Image/Schoolimage_a.png'),
-        schoolname: 'Delhi Public School (DPS)',
-        schoollocation: 'Delhi',
-        standard: 'Std 1st  to 10th',
-        fees: 'Rs- 500-10000 ',
-      },
-      {
-        schoolimage: require('../utils/assets/Image/Schoolimage_a.png'),
-        schoolname: 'Delhi Public School (DPS)',
-        schoollocation: 'Delhi',
-        standard: 'Std 1st  to 10th',
-        fees: 'Rs- 500-10000 ',
-      },
-      {
-        schoolimage: require('../utils/assets/Image/Schoolimage_a.png'),
-        schoolname: 'Delhi Public School (DPS)',
-        schoollocation: 'Delhi',
-        standard: 'Std 1st  to 10th',
-        fees: 'Rs- 500-10000 ',
-      },
-    ];
     return (
       <View style={{flex: 1}}>
         <View
